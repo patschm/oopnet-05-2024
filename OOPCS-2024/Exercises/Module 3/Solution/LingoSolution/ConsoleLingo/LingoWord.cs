@@ -24,6 +24,7 @@
         }
         public bool AreEqual(LingoWord guess)
         {
+            if (this.internalWord.Length != guess.internalWord.Length) return false;
             for(int i = 0; i < internalWord.Length; i++ )
             {
                 if (guess.internalWord[i].character != this.internalWord[i].character)

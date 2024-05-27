@@ -49,7 +49,7 @@
             if (attempt < 5)
             {
                 IQ iq = (IQ)attempt;
-                Console.WriteLine("Your IQ level is {0} ", iq);
+                Console.WriteLine($"Your IQ level is {iq} ");
             }
             else
             {
