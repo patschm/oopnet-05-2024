@@ -7,7 +7,7 @@ internal class Lamp
 {
     // Eigenschappen leggen vast in FIELDS
     private int _intensiteit = 100;
-    public ConsoleColor _kleur = ConsoleColor.Yellow;
+    //private ConsoleColor _kleur = ConsoleColor.Yellow;
     private Guid id = Guid.NewGuid();
 
     // Access functies. Zo doet men het in andere talen, zoals C++, Java
@@ -38,13 +38,16 @@ internal class Lamp
             {
                 _intensiteit = value;
             }
+
         }
     }
+    // Auto generationg property. Die genereert zijn eigen private field
+    public ConsoleColor Kleur { get; set; }
 
     // Gedrag leggen we vast in METHODS
     public void Aan()
     {
-        Console.BackgroundColor = _kleur;
+        Console.BackgroundColor = Kleur;
         Console.WriteLine($"De lamp ({id}) brandt met een intensiteit van {Intensiteit} lumen");     
     }
     public void Uit()
@@ -57,6 +60,7 @@ internal class Lamp
         Intensiteit++;
         Console.WriteLine($"De intensiteit is nu {Intensiteit}");
     }
+    // TODO 1:
     public void DimDown()
     {
         Intensiteit--;
@@ -67,7 +71,7 @@ internal class Lamp
     //public Lamp(int intensiteit, ConsoleColor kleur)
     //{
     //    this.Intensiteit = intensiteit;
-    //    _kleur = kleur;
+    //    Kleur = kleur;
     //}
     //public Lamp() : this(100, ConsoleColor.Yellow)
     //{
