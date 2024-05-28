@@ -4,9 +4,10 @@
 internal abstract class Lamp
 {
     private int _intensiteit = 100;
-    private Guid id = Guid.NewGuid();
+    //private Guid id = Guid.NewGuid();
 
-    public Guid Id {  get { return id; } }
+    protected Guid Id { get; } = Guid.NewGuid();
+
     public int Intensiteit
     {
         get
