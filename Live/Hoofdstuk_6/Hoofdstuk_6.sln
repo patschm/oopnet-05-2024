@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NogMeerInteractie", "NogMee
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HetRekenWonder", "HetRekenWonder\HetRekenWonder.csproj", "{77864CBA-9376-40C7-9E67-70C3A888D1FC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeRadio", "DeRadio\DeRadio.csproj", "{5D5223FE-4476-4CFA-9271-EFA35E933802}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsApp1", "WinFormsApp1\WinFormsApp1.csproj", "{4F369A81-F415-4B9A-A729-4404B46F4E20}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{77864CBA-9376-40C7-9E67-70C3A888D1FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{77864CBA-9376-40C7-9E67-70C3A888D1FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{77864CBA-9376-40C7-9E67-70C3A888D1FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D5223FE-4476-4CFA-9271-EFA35E933802}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D5223FE-4476-4CFA-9271-EFA35E933802}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D5223FE-4476-4CFA-9271-EFA35E933802}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D5223FE-4476-4CFA-9271-EFA35E933802}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F369A81-F415-4B9A-A729-4404B46F4E20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F369A81-F415-4B9A-A729-4404B46F4E20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F369A81-F415-4B9A-A729-4404B46F4E20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F369A81-F415-4B9A-A729-4404B46F4E20}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
