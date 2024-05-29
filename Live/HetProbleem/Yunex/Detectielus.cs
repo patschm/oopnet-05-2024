@@ -5,6 +5,8 @@ namespace Yunex;
 public class Detectielus
 {
     private List<IDetectable> devices = new List<IDetectable>();
+    public event Action Detected;
+    //public event EventHandler Detecting;
 
     public void Connect(IDetectable device)
     {
@@ -18,5 +20,6 @@ public class Detectielus
         {
             device.Detecting();
         }
+        Detected?.Invoke();
     }
 }

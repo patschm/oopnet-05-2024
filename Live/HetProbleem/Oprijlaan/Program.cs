@@ -14,9 +14,13 @@ internal class Program
         Camera cam = new Camera();
         Valkuil kuil = new Valkuil();
 
-        lus.Connect(cam);
-        lus.Connect(hek);
-        lus.Connect(kuil);
+        //lus.Connect(cam);
+        //.Connect(hek);
+        //lus.Connect(kuil);
+
+        lus.Detected += cam.Start;
+        lus.Detected += hek.Open;
+        lus.Detected += kuil.Open;
 
         lus.Detect();
        
