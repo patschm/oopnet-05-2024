@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeRadio", "DeRadio\DeRadio.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsApp1", "WinFormsApp1\WinFormsApp1.csproj", "{4F369A81-F415-4B9A-A729-4404B46F4E20}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvolutieTheorie", "EvolutieTheorie\EvolutieTheorie.csproj", "{77F606D0-9079-4278-A2EE-E12FD2D4A028}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{4F369A81-F415-4B9A-A729-4404B46F4E20}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4F369A81-F415-4B9A-A729-4404B46F4E20}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4F369A81-F415-4B9A-A729-4404B46F4E20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77F606D0-9079-4278-A2EE-E12FD2D4A028}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77F606D0-9079-4278-A2EE-E12FD2D4A028}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77F606D0-9079-4278-A2EE-E12FD2D4A028}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77F606D0-9079-4278-A2EE-E12FD2D4A028}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
